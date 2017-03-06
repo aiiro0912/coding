@@ -1,0 +1,70 @@
+@@charset "UTF-8";
+
+/*common*/
+/*使用するフォントの種類
+　テキスト文字色
+　ベースとなるフォントサイズ
+　リンクの文字色
+*/
+
+html{
+
+}
+
+body{
+
+}
+
+*, *::before, *::after {
+
+}
+
+a:link, a:visited, a:hover., a:active {
+
+}
+
+
+
+/**/
+.header, .main, .sidemenu, .footer{
+  border: 1px solid #aaa;
+  background-color: #ccc;
+}
+
+.header, .footer{
+  height: 100px;
+}
+
+.main, .sidemenu{
+  height: 500px;
+}
+
+.clearfix::after{
+  content:'';
+  display: block;
+  clear: both;
+}
+
+.header{
+  width: 100%;
+}
+
+.wrapper{
+  width: 970px;
+  margin: 30px  auto 40px;
+}
+
+.main{
+ display: block;
+ float: left;
+ width: 660px;
+}
+
+.sidemenu{
+  float: right;
+  width: 275px;
+}
+
+.footer{
+  width: 100%;
+}
